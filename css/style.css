@@ -1,0 +1,119 @@
+:root {
+  --anim-duration: 100s;
+}
+
+body {
+  font-family: 'Windsor';
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 0 0 2px rgba(0, 0, 0, .8);
+  color:thistle;
+  background: linear-gradient(180deg, black, rgb(129, 129, 129));
+  background-size: 300% 300%;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: 'Windsor';
+  src:  url('font/Windsor_Regular.ttf') format('ttf');
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.panel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:30vw;
+  height: 80vh;
+  margin: 0 auto;
+  /* background-color: #fcfcfc; */
+  border-radius: 3px;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .8);
+
+}
+
+.content {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  
+}
+
+#panel1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, .3);
+  position: absolute;
+  width:100%;
+  height: 100%;
+  /* background: linear-gradient(180deg, #37e3b6, #d07b29); */
+  background: linear-gradient(180deg,#bd8df5 5%,  #F2B885 15%, #da6900 25%, #1f67da 35%, #98baf0 45%, #6136fd 55%, #e076a8 65%, #8461b6 75%, #530296 85%, #2c1453 95%);
+  background-size: 1000% 1000%;
+
+  animation: panel1-anim var(--anim-duration) ease-in-out infinite;
+}
+
+#panel2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, .1);
+  position: absolute;
+  width:100%;
+  height: 100%;
+  background: linear-gradient(180deg, #1f67da 5%, #98baf0 15%, #6136fd 25%, #e076a8 35%, #8461b6 45%, #530296 55%, #2c1453 65%, #bd8df5 75%,  #F2B885 85%, #da6900 95%);
+  background-size: 1000% 1000%;
+
+  animation: panel2-anim var(--anim-duration) ease-in-out infinite;
+}
+
+#panel3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, .1);
+  position: absolute;
+  width:100%;
+  height: 100%;
+  /* background: linear-gradient(180deg, #4777c4, #feffd9); */
+  background: linear-gradient(180deg, #e076a8 5%, #8461b6 15%, #530296 25%, #2c1453 35%, #bd8df5 45%,  #F2B885 55%, #da6900 65%, #1f67da 75%, #98baf0 85%, #6136fd 95%);
+  background-size: 1000% 1000%;
+
+  animation: panel2-anim var(--anim-duration) ease-in-out infinite;
+}
+
+
+
+
+@keyframes panel1-anim {
+  0%{background-position:0% 0%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
+
+@keyframes panel2-anim {
+  0%{background-position:0% 0%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
+
+@keyframes panel3-anim {
+  0%{background-position:0% 0%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
