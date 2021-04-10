@@ -62,7 +62,7 @@ body {
   width:100%;
   height: 100%;
   /* background: linear-gradient(180deg, #37e3b6, #d07b29); */
-  background: linear-gradient(180deg,#bd8df5 5%,  #F2B885 15%, #da6900 25%, #1f67da 35%, #98baf0 45%, #6136fd 55%, #e076a8 65%, #8461b6 75%, #530296 85%, #2c1453 95%);
+  background: linear-gradient(180deg,#bd8df5 5%,  #F2B885 15%, #da6900 25%, #1f67da 35%, #98baf0 45%, #6136fd 55%, #e076a8 65%, #8461b6 75%, #530296 85%, #130824 95%);
   background-size: 1000% 1000%;
 
   animation: panel1-anim var(--anim-duration) ease-in-out infinite;
@@ -76,7 +76,7 @@ body {
   position: absolute;
   width:100%;
   height: 100%;
-  background: linear-gradient(180deg, #1f67da 5%, #98baf0 15%, #6136fd 25%, #e076a8 35%, #8461b6 45%, #530296 55%, #2c1453 65%, #bd8df5 75%,  #F2B885 85%, #da6900 95%);
+  background: linear-gradient(180deg, #1f67da 5%, #98baf0 15%, #6136fd 25%, #e076a8 35%, #8461b6 45%, #530296 55%, #130824 65%, #bd8df5 75%,  #F2B885 85%, #da6900 95%);
   background-size: 1000% 1000%;
 
   animation: panel2-anim var(--anim-duration) ease-in-out infinite;
@@ -91,7 +91,7 @@ body {
   width:100%;
   height: 100%;
   /* background: linear-gradient(180deg, #4777c4, #feffd9); */
-  background: linear-gradient(180deg, #e076a8 5%, #8461b6 15%, #530296 25%, #2c1453 35%, #bd8df5 45%,  #F2B885 55%, #da6900 65%, #1f67da 75%, #98baf0 85%, #6136fd 95%);
+  background: linear-gradient(180deg, #e076a8 5%, #8461b6 15%, #530296 25%, #130824 35%, #bd8df5 45%,  #F2B885 55%, #da6900 65%, #1f67da 75%, #98baf0 85%, #6136fd 95%);
   background-size: 1000% 1000%;
 
   animation: panel2-anim var(--anim-duration) ease-in-out infinite;
