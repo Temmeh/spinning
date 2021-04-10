@@ -2,6 +2,10 @@
   --anim-duration: 80s;
 }
 
+* {
+  cursor: url('../img/sun.png'), auto;
+
+}
 body {
   font-family: 'Windsor';
   font-size: 30px;
@@ -13,6 +17,7 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0px;
+  
 }
 
 @font-face {
